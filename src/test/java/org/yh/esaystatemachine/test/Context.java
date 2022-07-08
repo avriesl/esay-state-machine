@@ -7,5 +7,5 @@ package org.yh.esaystatemachine.test;
  * @date 2022/6/30 13:30
  */
 public class Context {
-    public String inquiry = "frank want to inquiry";
+    public String inquiry = "inquiry";
 }

@@ -43,6 +43,7 @@ public class StateMachineBuilderImpl<S, E, C> implements StateMachineBuilder<S, 
      */
     @Override
     public StateMachine<S, E, C> build(String machineId) {
+        // builder
         stateMachine.setMachineId(machineId);
         stateMachine.setReady(true);
         StateMachineFactory.register(stateMachine);
